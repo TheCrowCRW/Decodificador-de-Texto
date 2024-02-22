@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header></header>
+    <main class="main">
+        <img src="assets/Logo.png" class="logo"/>
+        <section class="main-section">
+        <section class="group1">
+            <textarea id="text-input" spellcheck="false" class="text-input" placeholder="Digite seu texto"></textarea>
+            <div class="form-group">
+                <img src="assets/alert.png" class="img-alert"/>
+                <label class="msg-alert" input-texto>Apenas letras minúsculas.</label>
+            </div>
+            <div class="btns-div">
+                <button onclick="showCripto()" class="btn-crip">
+                    Criptografar
+                </button>
+                <button onclick="showDescripto()" class="btn-desc">
+                    Descriptografar
+                </button>
+                <button onclick="copiarTexto()" class="copy-button">
+                    Copiar
+                </button>
+            </div>
+        </section>
+        <section class="group-msg">
+            <div class="div-show-msg" id="div-show-msg">
+                <textarea id="div-msg" spellcheck="false" class="div-msg"></textarea>
+                <div class="img-btn">
+                    <img class="msg-img0" src="assets/High quality products 1 1.svg">
+                    <img class="msg-img1" src="assets/textimg.png">
+                </div>
+            </div>
+        </section>
+        </section>
+    </main>
+    <footer class="footer">Desenvolvido por Wesley&reg;</footer>
+    <script src="script.js"></script>
+</body>
+</html>
